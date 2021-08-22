@@ -13,12 +13,11 @@
     --third-color: #D4B6B6;
 }
 
-
+/* body style */
 body {
-    font-family: helvetica, arial, sans-serif;
     background-color: var(--primary-color);
 }
-
+/* End body style */
 
 /* Header Section */
 /* Header background image was downloaded from https://www.pexels.com/photo/information-sign-on-shelf-251225/ */
@@ -74,6 +73,15 @@ header nav ul li a:hover {
 }
 /* End of Header Style */
 
+/*footer style */
+
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    font-weight: bold;
+}
+/* End of footer style */
 
 /* Contents Section */
 
@@ -97,13 +105,6 @@ section p {
     font-size:1.25vw;
 }
 
-footer {
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    font-weight: bold;
-}
-
 /* Hero background image was downloaded from https://www.pexels.com/photo/information-sign-on-shelf-251225/ */
 .hero {
     display: flex;
@@ -117,6 +118,7 @@ footer {
     padding: 100px 0;
 }
 
+/* clean styling for subtitle in hero */
 .hero-subtitle {
     border-right: none;
     background-color: var(--secondary-color);
@@ -125,6 +127,7 @@ footer {
     text-align: center;
 }
 
+/* organizes the 3 app rows. Spotlight then 2 rows for More apps */
 .work {
     display: flex;
     flex-direction: column;
@@ -133,6 +136,7 @@ footer {
     height: 800px;
 }
 
+/* puts space around objects in work section and sets background size */
 .projects {
     background-size: cover;
     margin: 5px;
@@ -145,6 +149,7 @@ footer {
     height: 60%;
 }
 
+/* allows side by side app buttons */
 .more-apps {    
     display: flex;
     flex-direction: row;
@@ -153,6 +158,7 @@ footer {
     width: 100%;
 }
 
+/* creates spacing between apps */
 .app {
     width: 49%;
 }
@@ -192,6 +198,7 @@ footer {
     padding-bottom: 20px;
 }
 
+/* reduces opacity of link background so image shows more clearly */
 .project-links:hover {
     background-color: rgba(212,  182,  182, 0.10);
 }
@@ -207,4 +214,21 @@ footer {
 
 .project-title h4 {
     font-weight: lighter;
+}
+
+
+.contact-info {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* sets decoration for contact links */
+.contact-info a {
+    text-decoration: solid underline 3px black;
+    color: black;
+    font-size: 1.25vw;
 }
