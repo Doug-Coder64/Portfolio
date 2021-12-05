@@ -34,5 +34,9 @@ export const ProjectList = [
       img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/html5.svg",
       name: "HTML",
     },
+    {
+      img: "https://commons.wikimedia.org/wiki/File:JavaScript-logo.png",
+      name: "JavaScript"
+    }
 
   ];
