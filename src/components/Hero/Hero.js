@@ -33,7 +33,7 @@ function Hero() {
                     </HeroLeft>
                     <HeroRight>
                         <Image
-                            src=""
+                            src="https://raw.githubusercontent.com/doug-coder64/website/main/src/Assets/scroll-down.svg"
                             alt="image"
                         />
                     </HeroRight>
