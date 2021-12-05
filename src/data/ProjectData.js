@@ -17,7 +17,7 @@ export const ProjectList = [
       demo_url: "https://github.com/Doug-Coder64/E-commerce-Back-End",
     },
     {
-      img: "https://github.com/Doug-Coder64/password-generator/blob/main/assets/readme-images/example.png?raw=true",
+      img: "https://raw.githubusercontent.com/Doug-Coder64/password-generator/main/assets/readme-images/example.png",
       title: "Password Generator",
       description: "This is an application that an employee can use to generate a random password based on criteria they’ve selected.",
       tech_stack: "JavaScript, HTML, CSS",
