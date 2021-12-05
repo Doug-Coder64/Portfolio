@@ -32,18 +32,15 @@ function Hero() {
                         </p>
                     </HeroLeft>
                     <HeroRight>
-                        <Image
-                            src="https://raw.githubusercontent.com/doug-coder64/website/main/src/Assets/scroll-down.svg"
-                            alt="image"
-                        />
+
                     </HeroRight>
                 </HeroWrapper>
                 <ScrollDown to="projects">
                     <ScrollLink>
                         Scroll Down
                         <img
-                            src=""
-                            alt=""
+                            src="../Assets/scroll-down.svg"
+                            alt="Scroll Down"
                         />
                     </ScrollLink>
                 </ScrollDown>
