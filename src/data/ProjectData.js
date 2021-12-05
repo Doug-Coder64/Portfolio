@@ -37,6 +37,18 @@ export const ProjectList = [
     {
       img: "https://raw.githubusercontent.com/voodootikigod/logo.js/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg",
       name: "JavaScript"
-    }
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+      name: "ReactJS",
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
+      name: "Bootstrap",
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+      name: "Git",
+    },
 
   ];
